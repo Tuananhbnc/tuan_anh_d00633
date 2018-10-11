@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="App_token.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App_token"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel>
+        <TextBox x:ConnectionId='2' x:Name="FileName" Header="File Name"/>
+        <TextBox x:ConnectionId='3' x:Name="Name" Header="Name"/>
+        <TextBox x:ConnectionId='4' x:Name="Email" Header="email"/>
+        <TextBox x:ConnectionId='5' x:Name="Phone" Header="Phone"/>
+        <Button x:ConnectionId='6' Content="Save"                   />
+    </StackPanel>
+</Page>
+
